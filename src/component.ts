@@ -1,3 +1,5 @@
 import "./component.css";
 
-console.log("component");
+export function hello() {
+  return "Hello";
+}

@@ -6,6 +6,8 @@ module.exports = {
   output: {
     path: __dirname + "/dist",
     filename: "[name].js",
+    library: ["[name]"],
+    libraryTarget: "umd",
   },
 
   resolve: {
