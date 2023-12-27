@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "webpack"
+    "test": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,7 @@
     "webpack-cli": "4.10.0"
   },
   "dependencies": {},
-  "sideEffects": false
+  "sideEffects": [
+    "*.css"
+  ]
 }
